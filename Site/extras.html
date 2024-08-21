@@ -17,36 +17,35 @@
 
   <body>
     <div class="navNavbar">
-      <a class="navNavItem navActive" href="index.html">Home</a>
-
       <div class="navNavGroup checkDisplay">
+        <a class="navNavItem" href="index.html">Home</a>
         <a class="navNavItem" href="skills.html">Skills</a>
         <a class="navNavItem" href="about.html">About</a>
-        <a class="navNavItem" href="extras.html">Projects</a>
       </div>
+
+      <a class="navNavItem navActive" href="extras.html">Projects</a>
 
       <a class="navHide navHamBurger"><i class="fa fa-bars"></i></a>
     </div>
 
-    <div class="margin-ten box-normal back-light text-dark align-center">
-      <hr class="back-dark">
-      <h1>Projects</h1>
-      <hr class="back-dark">
 
-    </div>
 
-    <div class="box-normal border-radius align-center flex-center margin-ten back-dark">
-      <div class="border-radius flex-size-one back-light padding-one display-i-block margin-one-r margin-one-l">
-        <img src="wordle.png" width="250px" class="img-thumb">
-        <h2 class="wordleFont">Wordle</h2>
-        <hr class="back-dark">
-        <a class="button-normal-blue wide-lr-padding text-light" href="wordleInfo.html">Learn More and Play!</a>
-      </div>
-
-      <div class="border-radius flex-size-one back-light padding-one display-i-block margin-one-r margin-one-l">
-        <img src="placeholdertwo.jpg" width="250px" class="img-thumb">
+    <div class="box-normal">
+      <div class="carouselContainer" style="min-width: 100%;">
+        <div class="carouselItem fadePartial">
+          <img src="wordlebg.png" alt="" style="width:100%">
+          <div class="carouselCenterText">
+            <a href="wordleInfo.html" class="text-light">Wordle Project</a>
+          </div>
+        </div>
+  
+        <a class="carouselLeftButton" onclick="changeCurrentImage(-1)">&#10094;</a>
+        <a class="carouselRightButton" onclick="changeCurrentImage(1)">&#10095;</a>
       </div>
     </div>
+
+
+
 
     <div class="footerContainer">
       <hr class="back-dark">
@@ -63,7 +62,7 @@
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="scriptextras.js"></script>
+    <script type="text/javascript" src="script.js"></script>
     </body>
 
     </html>

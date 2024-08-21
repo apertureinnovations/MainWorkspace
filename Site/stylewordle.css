@@ -50,22 +50,3 @@ table {
 .wordleTitle {
     font-family: 'DM Serif Display', serif;
 }
-
-.back-wordleInfo {
-  min-height: 100%;
-  background: linear-gradient(
-    to bottom,
-  #7F3CDC 20%,
-  #7F2CCC 40%,
-  #4F1C9C 50%,
-  #2A2D43 70%,
-  rgb(20, 20, 20) 100%
-  );
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#initialDiv {
-  height: 1000px;
-  border-radius: 0 !important;
-}

@@ -50,3 +50,12 @@ function modalOpenClose(number) {
   }
 
 }
+
+function copyText(text) {
+  navigator.clipboard.writeText(text);
+}
+
+function scrollToElement(id) {
+  $('html, body').animate({
+    scrollTop: ($(id).offset().top - 50)}, 'slow');
+}
