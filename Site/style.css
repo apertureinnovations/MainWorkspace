@@ -929,6 +929,8 @@
 .navNavItem:hover {
   color: rgb(207, 207, 207) !important;
   text-decoration: none;
+  border-bottom: 3px solid rgb(255, 255, 255) !important;
+  border-radius: 0;
 }
 
 
@@ -991,6 +993,9 @@
   }
   .navNavbar {
     overflow: hidden;
+  }
+  .navNavItem:hover {
+    border-bottom: none !important;
   }
 }
 
@@ -1222,5 +1227,6 @@
 
 .sideBorder {
   border-left: 6px solid #7A1CAC !important;
-  border-radius: 0;
+  border-radius: 4px 0 0 4px;
 }
+
